@@ -133,3 +133,27 @@ logs/
 - 한글 깨짐 방지!
 
 ---
+## 환경 설정 완료 (2026)
+
+### Google API 설정
+- Google Drive API: 활성화 완료
+- Google Sheets API: 활성화 완료
+- 서비스 계정: ai-briefing-bot@ai-briefing-system.iam.gserviceaccount.com
+
+### Google Drive 폴더 구조
+- 메인 폴더: AI-Briefing
+- 폴더 ID: 16govLo_QlAPYggeXcYIUJ2RqyIIUQhHT
+- 하위 폴더: Input, Reports
+
+### Google Sheets
+- 시트 이름: AI브리핑_요약
+- 시트 ID: 1tDt448hc-QZZP1BQnQQHR8MxTyiIhiMeHXzKBxsDHPY
+
+### 서비스 계정 키 파일
+- 파일명: ai-briefing-system-548c0df97480.json
+- 위치: 프로젝트 루트 (gitignore로 보호됨)
+
+### 다음 할 일
+- [ ] googleDrive.js 구현
+- [ ] googleSheets.js 구현
+- [ ] 첫 테스트 실행

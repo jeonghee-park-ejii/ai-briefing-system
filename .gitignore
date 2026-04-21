@@ -28,3 +28,8 @@ input/
 # 임시 파일
 *.tmp
 temp/
+
+# Google 서비스 계정 키 (절대 올리면 안 됨!)
+*.json
+!package.json
+!package-lock.json
