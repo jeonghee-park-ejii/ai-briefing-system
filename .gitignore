@@ -1,0 +1,30 @@
+# 환경 변수 (절대 올리면 안 됨!)
+.env
+.env.local
+.env.*.local
+
+# Node 패키지
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+logs/
+
+# 입력 파일 (개인 카톡 대화)
+input/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 임시 파일
+*.tmp
+temp/
